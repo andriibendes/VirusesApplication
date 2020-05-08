@@ -80,7 +80,7 @@
             // 
             // drug_btn
             // 
-            this.drug_btn.Location = new System.Drawing.Point(567, 50);
+            this.drug_btn.Location = new System.Drawing.Point(574, 50);
             this.drug_btn.Name = "drug_btn";
             this.drug_btn.Size = new System.Drawing.Size(147, 72);
             this.drug_btn.TabIndex = 4;
@@ -100,7 +100,7 @@
             // 
             // med
             // 
-            this.med.Location = new System.Drawing.Point(500, 148);
+            this.med.Location = new System.Drawing.Point(502, 148);
             this.med.Name = "med";
             this.med.Size = new System.Drawing.Size(147, 72);
             this.med.TabIndex = 6;
@@ -186,13 +186,13 @@
             // 
             this.x.Location = new System.Drawing.Point(403, 318);
             this.x.Name = "x";
-            this.x.Size = new System.Drawing.Size(133, 20);
+            this.x.Size = new System.Drawing.Size(125, 20);
             this.x.TabIndex = 14;
             this.x.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // find
             // 
-            this.find.Location = new System.Drawing.Point(592, 316);
+            this.find.Location = new System.Drawing.Point(534, 316);
             this.find.Name = "find";
             this.find.Size = new System.Drawing.Size(55, 23);
             this.find.TabIndex = 15;
@@ -205,10 +205,10 @@
             this.six.AutoSize = true;
             this.six.Location = new System.Drawing.Point(37, 354);
             this.six.Name = "six";
-            this.six.Size = new System.Drawing.Size(133, 17);
+            this.six.Size = new System.Drawing.Size(134, 17);
             this.six.TabIndex = 16;
             this.six.TabStop = true;
-            this.six.Text = "Drugs that treat virus X";
+            this.six.Text = "Drugs that treat Virus X";
             this.six.UseVisualStyleBackColor = true;
             // 
             // eight
