@@ -213,7 +213,7 @@ namespace VirusesApplication
                     "VirusDrug inner join Drug " +
                     "on VirusDrug.DrugId = Drug.Id) " +
                     "on Virus.Id = VirusDrug.VirusId " +
-                    "where Drug.Name = '" + x.Text + "'";
+                    "where Drug.Name = '" + x.Text + "')";
                 adapter.SelectCommand = new SqlCommand(sql, cnn);
                 adapter.Fill(ds);
                 for (int i = 0; i <= ds.Tables[0].Rows.Count - 1; i++)

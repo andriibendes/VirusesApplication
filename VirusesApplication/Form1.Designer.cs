@@ -216,10 +216,10 @@
             this.eight.AutoSize = true;
             this.eight.Location = new System.Drawing.Point(37, 400);
             this.eight.Name = "eight";
-            this.eight.Size = new System.Drawing.Size(269, 17);
+            this.eight.Size = new System.Drawing.Size(376, 17);
             this.eight.TabIndex = 17;
             this.eight.TabStop = true;
-            this.eight.Text = "Scientists that discovered Viruses treated by Drug X";
+            this.eight.Text = "Scientists that discovered Viruses treated by Drug X and some other Drugs";
             this.eight.UseVisualStyleBackColor = true;
             // 
             // seven
